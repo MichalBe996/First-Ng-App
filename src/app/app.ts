@@ -11,10 +11,8 @@ import { Header } from './components/header/header';
     <app-header/>
     <app-home/>
   `,
-  styles: [`
-    p {
-    background-color: red;
-    }`
+  styles: [
+    
     
   ],
 })
