@@ -9,9 +9,16 @@ import { Header } from './components/header/header';
   imports: [RouterOutlet, Home, Header],
   template: `
     <app-header/>
-    <app-home/>
+    <main>
+      <app-home/>
+    
+    </main>
+    
   `,
   styles: [
+    `main {
+      padding: 16px;
+    }`
     
     
   ],
