@@ -8,6 +8,6 @@ import { Greeting } from '../components/greeting/greeting';
   styleUrl: './home.scss'
 })
 export class Home {
-  message = signal("Sausages and so on and so forth")
+  homeMessage = signal("Sausages and so on and so forth")
 
 }
