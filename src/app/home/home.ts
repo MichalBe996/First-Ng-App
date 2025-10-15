@@ -8,9 +8,14 @@ import { Greeting } from '../components/greeting/greeting';
   styleUrl: './home.scss'
 })
 export class Home {
+  counter = 0
   homeMessage = signal("Hello World!")
+  counterMessage = signal(this.counter);
   keyUpHandler(event: KeyboardEvent){
     console.log(`User pressed the ${event.key} key`)
+  }
+  incrementCounter(count: number){
+    console.log("button clicked")
   }
 
 }
