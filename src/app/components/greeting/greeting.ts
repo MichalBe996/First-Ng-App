@@ -8,6 +8,6 @@ import { Component, input } from '@angular/core';
 })
 export class Greeting {
   message = input("Default greeting message");
-  counter = input(13)
-
-}
+  
+  
+ }
